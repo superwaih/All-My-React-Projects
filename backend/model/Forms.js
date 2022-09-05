@@ -10,12 +10,11 @@ const FormSchema = new mongoose.Schema({
     required: [true, 'last name must be provided'],
   },
   amount: {
-    type: Number,
-    required: [true, 'product price must be provided'],
-  },
-  paymentMode: {
     type: String,
     required: [true, 'product price must be provided'],
+  },
+  jkwon_amount: {
+    type: String,
   },
   paymentCrypto: {
     type: String,

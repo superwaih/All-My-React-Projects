@@ -14,7 +14,7 @@ export const Table = () => {
     id: uuidv4(),
     alert_name: 'alert 1',
     independent_var: [{ value: 'ME Torge (Avg.)', label: 'ME Torge (Avg.)' }, { value: 'Rate of Return (Avg.)', label: 'Rate of Return (Avg.)' }],
-    dependent_var: ['ME Speed (Avg.)'],
+    dependent_var: [{ value: 'ME Torge (Avg.)', label: 'ME Torge (Avg.)' }, ],
     freq: 10 
   },
   {
