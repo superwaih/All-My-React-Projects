@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .input-brand {
+        @apply border border-gray-300 flex-1 px-3 py-[13px] placeholder-gray-500 flex-shrink rounded-lg focus:outline-none focus:ring-gray-600 focus:ring-1 text-sm mr-0 sm:mr-2 w-full;
+      }
+      .flex-wrapper{
+        @apply flex justify-between md:flex-row flex-col
+      }
+}
+
+.navLink::after{
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  border-bottom: 5px solid gray;
+}
